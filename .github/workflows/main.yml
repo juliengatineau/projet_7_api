@@ -45,7 +45,6 @@ jobs:
           path: |
             release.zip
             !venv/
-            requirements.txt
 
   deploy:
     runs-on: ubuntu-latest
