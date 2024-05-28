@@ -6,5 +6,4 @@ echo "Lancement du backend"
 source antenv/bin/activate
 echo "-------------------------------------------------------------"
 echo "Antenv active"
-print("Antenv active")
 gunicorn --bind=0.0.0.0:$PORT app:app
