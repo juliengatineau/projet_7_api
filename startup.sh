@@ -16,7 +16,7 @@ echo "Environnement actif : $VIRTUAL_ENV"
 echo "-------------------------------------------------------------"
 
 echo "Mise à jour de pip..."
-python -m ensurepip --upgrade
+python3 -m ensurepip --upgrade
 echo "-------------------------------------------------------------"
 
 echo "Liste des bibliothèques installées :"
