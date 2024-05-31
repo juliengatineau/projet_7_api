@@ -7,13 +7,13 @@ echo "Lancement du backend"
 echo "-------------------------------------------------------------"
 echo "Environnement actif : $VIRTUAL_ENV"
 
-source antenv/bin/activate
+source venv/bin/activate
 echo "-------------------------------------------------------------"
-echo "Antenv active"
+echo "venv active"
 echo "-------------------------------------------------------------"
 
 echo "Environnement actif : $VIRTUAL_ENV"
-echo "-------------------------------------------------------------"
+echo "-------------------------------------------------------------"gi
 
 echo "Liste des bibliothèques installées :"
 pip freeze
