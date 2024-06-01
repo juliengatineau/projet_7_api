@@ -9,7 +9,7 @@ echo "Environnement actif : $VIRTUAL_ENV"
 
 source venv/bin/activate
 echo "-------------------------------------------------------------"
-echo "venv active"
+echo "antenv active"
 echo "-------------------------------------------------------------"
 
 echo "Environnement actif : $VIRTUAL_ENV"
