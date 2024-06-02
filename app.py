@@ -117,7 +117,7 @@ import logging
 # Configure OpenTelemetry to use Azure Monitor with the 
 # APPLICATIONINSIGHTS_CONNECTION_STRING environment variable.
 configure_azure_monitor(
-    connection_string="InstrumentationKey=2bf5220a-d259-4c2d-9cf8-0d0d19275320;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=acc3a0c5-b7ed-465e-9d2b-56e7f718859a",
+    connection_string="InstrumentationKey=8b93dd9c-ae93-4d7e-b599-2fb049e5353e;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=d3afa143-bb4e-41f1-831f-b110732f8ed7",
 )
 
 # Get the current tracer
