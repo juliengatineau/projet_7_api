@@ -46,7 +46,7 @@ if tfidf is None:
     raise Exception(f"Failed to load tfidf from {tfidf_path}")
 
 # Fonctions de Tokenizatione et prétraitement du texte et importation des données
-# -------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------
 
 
 # Télécharger les ressources nécessaires pour nltk

@@ -40,8 +40,8 @@ jobs:
         run: |
           cd backend
           zip release.zip ./* -r
-          
-      - name: Debug: list files
+
+      - name: Debug - list files
         run: ls -la
 
       - name: Upload artifact for deployment jobs
