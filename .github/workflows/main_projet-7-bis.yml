@@ -10,6 +10,7 @@ on:
       - main
     paths:
       - 'backend/**'
+      - '.github/workflows/main_projet-7-bis.yml'
   workflow_dispatch:
 
 jobs:
@@ -34,7 +35,10 @@ jobs:
           cd backend
           pip install -r requirements.txt
         
-      # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
+      - name: Run PyTest
+        run: |
+          cd backend
+          pytest test.py
 
       - name: Zip artifact for deployment
         run: |
