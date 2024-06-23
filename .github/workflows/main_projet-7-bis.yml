@@ -42,10 +42,8 @@ jobs:
 
       - name: Zip artifact for deployment
         run: |
+        cd backend
           zip release.zip ./* -r
-
-      - name: Debug - list files
-        run: ls -la
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v3
