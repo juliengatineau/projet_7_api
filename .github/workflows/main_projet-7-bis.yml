@@ -50,8 +50,7 @@ jobs:
         with:
           name: python-app
           path: |
-            cd backend
-            release.zip
+            backend/release.zip
             !venv/
 
   deploy:
